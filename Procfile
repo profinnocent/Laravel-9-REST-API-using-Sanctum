@@ -1,4 +1,4 @@
-web: npm run start
+web: php artisan serve
 
 # Will be run after the build phase
-release: npm run migrate:deploy
+release: php artisan migrate
